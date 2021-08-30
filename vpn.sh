@@ -1,5 +1,6 @@
 #!/bin/bash
 curl https://rclone.org/install.sh | sudo bash
+su ubuntu
 mkdir .config
 cd config
 mkdir rclone
