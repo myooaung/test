@@ -1,6 +1,7 @@
 #!/bin/bash
+curl https://rclone.org/install.sh | sudo bash
 mkdir .config
-cd config
+cd .config
 mkdir rclone
 cd rclone
 touch rclone.conf
